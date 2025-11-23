@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
         event.preventDefault(); // Prevent default anchor behavior
         location.reload(); // Reload the page
     });
-    
+
     // Toggle sidebar
     navIcon.addEventListener("click", () => {
         sidebar.classList.add("active");
